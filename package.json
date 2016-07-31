@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Find a friend or a friend with benefits.",
+  "main": "api-routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Stephen Doe",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamTh3Walrus/FriendFinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IamTh3Walrus/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/IamTh3Walrus/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6"
+  }
+}
